@@ -72,7 +72,7 @@ const App = () => {
         <div className="header-container">
           <p className="header">🖼 Quoat Portal</p>
           <p className="sub-text">
-            View your Quoat collection in the metaverse ✨
+            View your Quoat collection in the metaverse  ✨
           </p>
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
